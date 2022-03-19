@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Provider Cardinality Reduction for Efficient QoS Service Composition using AI Planning
 
-You can use the [editor on GitHub](https://github.com/doubledoubleblind/icws-22/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/doubledoubleblind/icws-22/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Numeric AI planning can be applied to automate QoS based service composition (QSC) in cyber-physical systems and internet-of-things. However, many real world QSC problems have a huge ground representation due to the large sets of service providers and objects, making them unsolvable by planners. In this paper, we introduce a novel reformulation technique to simplify the planning problems converted from QSC problems by reducing the set of service provider object set. The reformulation approach estimates the number of providers required for the problem, replaces the set of real provider objects by a set of mock providers with the size of the estimated numbers, and adds a select action to map the state of the real providers to the mock providers. The reduced object set implies a simplified planning problem and, subsequently, reduced planning time. Experimental results show that our approach significantly simplifies planning problems and improves planning time by up to about 25 times while retaining the competitive plan quality.
